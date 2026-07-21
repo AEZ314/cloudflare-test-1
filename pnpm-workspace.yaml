@@ -1,0 +1,7 @@
+allowBuilds:
+  '@tailwindcss/oxide': true
+  workerd: true
+  sharp: true
+  esbuild: true
+  '@prisma/client': set this to true or false
+  better-sqlite3: set this to true or false
