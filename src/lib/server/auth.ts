@@ -5,6 +5,9 @@ import { sveltekitCookies } from "better-auth/svelte-kit";
 import { getRequestEvent } from "$app/server";
 import { getDb } from "$lib/server/db";
 
+// const ORIGIN=process.env.ORIGIN;
+// const BETTER_AUTH_SECRET = process.env.BETTER_AUTH_SECRET;
+
 const authConfig = {
 	baseURL: ORIGIN,
 	secret: BETTER_AUTH_SECRET,
